@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BeforeAfter } from "./components/BeforeAfter";
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <Analytics />
       <Navbar isScrolled={isScrolled} />
 
       {/* Hero Section */}
