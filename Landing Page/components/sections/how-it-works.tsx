@@ -7,7 +7,7 @@ import { Chrome, FileText, Sparkles } from "lucide-react";
 const steps = [
   {
     icon: Chrome,
-    title: "Add LegalPlain to Chrome",
+    title: "Add LegalPlain.ai.ai to Chrome",
     description:
       "Install our extension with a single click from the Chrome Web Store.",
   },
@@ -19,7 +19,7 @@ const steps = [
   },
   {
     icon: Sparkles,
-    title: "Activate LegalPlain",
+    title: "Activate LegalPlain.ai.ai",
     description:
       "Click the extension icon to instantly transform complex legal text into clear language.",
   },
@@ -37,7 +37,7 @@ export function HowItWorksSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            How LegalPlain Works
+            How LegalPlain.ai.ai Works
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Get started in three simple steps and transform your legal document

@@ -14,7 +14,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
     content:
-      "LegalPlain has transformed how I handle contracts. What used to take hours of back-and-forth with lawyers now takes minutes to understand.",
+      "LegalPlain.ai.ai has transformed how I handle contracts. What used to take hours of back-and-forth with lawyers now takes minutes to understand.",
     rating: 5,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
     content:
-      "The accuracy and clarity provided by LegalPlain is remarkable. It's like having a legal expert right in your browser.",
+      "The accuracy and clarity provided by LegalPlain.ai.ai is remarkable. It's like having a legal expert right in your browser.",
     rating: 5,
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150",
     content:
-      "As a freelancer, understanding client contracts is crucial. LegalPlain gives me the confidence to navigate legal documents independently.",
+      "As a freelancer, understanding client contracts is crucial. LegalPlain.ai.ai gives me the confidence to navigate legal documents independently.",
     rating: 5,
   },
 ];
