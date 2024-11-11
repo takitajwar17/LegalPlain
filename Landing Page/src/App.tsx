@@ -1,5 +1,4 @@
 import { Analytics } from "@vercel/analytics/react";
-import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Features } from "./components/Features";
