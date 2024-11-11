@@ -50,9 +50,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-12 left-3/5 -translate-x-1/2">
-          <ArrowDown className="w-6 h-6 text-white/50 animate-bounce-slow" />
-        </div>
+        <div className="absolute bottom-12 left-3/5 -translate-x-1/2"></div>
       </section>
 
       {/* Story Section */}
