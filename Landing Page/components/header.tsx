@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Chrome, Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -65,6 +65,7 @@ export function Header() {
               size="sm"
               className="bg-white text-black hover:bg-white/90 rounded-full"
             >
+              <Chrome className="inline-block mr-2" />
               Add to Chrome
             </Button>
           </nav>
@@ -119,6 +120,7 @@ export function Header() {
                 size="sm"
                 className="w-full bg-white text-black hover:bg-white/90 rounded-full"
               >
+                <Chrome className="inline-block mr-2" />
                 Add to Chrome
               </Button>
             </div>
