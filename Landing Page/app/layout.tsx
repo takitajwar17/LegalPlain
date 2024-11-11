@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LegalPlain.ai.ai - AI-Powered Legal Document Simplifier",
+  title: "LegalPlain.ai - AI-Powered Legal Document Simplifier",
   description:
     "Transform complex legal jargon into clear, understandable language instantly with our Chrome extension.",
   keywords:

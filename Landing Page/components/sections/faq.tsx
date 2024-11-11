@@ -10,34 +10,34 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How accurate is LegalPlain.ai.ai's simplification?",
+    question: "How accurate is LegalPlain.ai's simplification?",
     answer:
-      "LegalPlain.ai.ai uses advanced AI models specifically trained on legal documents to ensure high accuracy. Our system has been tested across various legal documents and consistently provides reliable simplifications while maintaining the original meaning.",
+      "LegalPlain.ai uses advanced AI models specifically trained on legal documents to ensure high accuracy. Our system has been tested across various legal documents and consistently provides reliable simplifications while maintaining the original meaning.",
   },
   {
-    question: "Is my data secure when using LegalPlain.ai.ai?",
+    question: "Is my data secure when using LegalPlain.ai?",
     answer:
-      "Absolutely! LegalPlain.ai.ai processes all documents locally in your browser. Your sensitive legal documents never leave your device, ensuring complete privacy and security.",
+      "Absolutely! LegalPlain.ai processes all documents locally in your browser. Your sensitive legal documents never leave your device, ensuring complete privacy and security.",
   },
   {
-    question: "Which types of legal documents can LegalPlain.ai.ai simplify?",
+    question: "Which types of legal documents can LegalPlain.ai simplify?",
     answer:
-      "LegalPlain.ai.ai can simplify various legal documents including contracts, terms of service, privacy policies, legal agreements, and more. The extension is designed to handle complex legal language across different document types.",
+      "LegalPlain.ai can simplify various legal documents including contracts, terms of service, privacy policies, legal agreements, and more. The extension is designed to handle complex legal language across different document types.",
   },
   {
-    question: "Does LegalPlain.ai.ai work in multiple languages?",
+    question: "Does LegalPlain.ai work in multiple languages?",
     answer:
-      "Yes! LegalPlain.ai.ai supports multiple languages and can simplify legal documents in various languages. The extension can also help translate simplified text into your preferred language.",
+      "Yes! LegalPlain.ai supports multiple languages and can simplify legal documents in various languages. The extension can also help translate simplified text into your preferred language.",
   },
   {
-    question: "Can I use LegalPlain.ai.ai for professional legal work?",
+    question: "Can I use LegalPlain.ai for professional legal work?",
     answer:
-      "While LegalPlain.ai.ai is a powerful tool for understanding legal documents, it's designed to complement, not replace, professional legal advice. We recommend using it alongside legal counsel for professional work.",
+      "While LegalPlain.ai is a powerful tool for understanding legal documents, it's designed to complement, not replace, professional legal advice. We recommend using it alongside legal counsel for professional work.",
   },
   {
-    question: "How often is LegalPlain.ai.ai updated?",
+    question: "How often is LegalPlain.ai updated?",
     answer:
-      "We regularly update LegalPlain.ai.ai to improve accuracy, add new features, and ensure compatibility with the latest legal terminology and document formats. Updates are automatically installed through the Chrome Web Store.",
+      "We regularly update LegalPlain.ai to improve accuracy, add new features, and ensure compatibility with the latest legal terminology and document formats. Updates are automatically installed through the Chrome Web Store.",
   },
 ];
 
@@ -56,7 +56,7 @@ export function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Find answers to common questions about LegalPlain.ai.ai.
+            Find answers to common questions about LegalPlain.ai.
           </p>
         </motion.div>
 
