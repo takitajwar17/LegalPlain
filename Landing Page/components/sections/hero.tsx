@@ -69,7 +69,7 @@ export function HeroSection() {
                     First Part hereby acknowledges and agrees to indemnify...
                   </p>
                 </div>
-                <div className="rounded-lg bg-blue-800 p-4">
+                <div className="rounded-lg bg-gradient-to-r from-blue-600 to-gray-800 p-4">
                   <h3 className="text-sm font-medium mb-2 text-white">
                     Simplified by LegalPlain
                   </h3>
