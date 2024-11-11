@@ -15,7 +15,7 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mx-auto space-y-8"
         >
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-white">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-white mt-8">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-600">
               Legal Documents,
             </span>
@@ -52,12 +52,12 @@ export function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
-          className="mt-16"
+          className="mt-8"
         >
           <div className="relative mx-auto max-w-5xl rounded-xl border bg-gray-800 shadow-2xl">
-            <div className="absolute -top-3 left-10 h-3 w-3 rounded-full bg-red-500" />
-            <div className="absolute -top-3 left-16 h-3 w-3 rounded-full bg-yellow-500" />
-            <div className="absolute -top-3 left-22 h-3 w-3 rounded-full bg-green-500" />
+            <div className="absolute -top-3 left-6 h-3 w-3 rounded-full bg-red-500" />
+            <div className="absolute -top-3 left-12 h-3 w-3 rounded-full bg-yellow-500" />
+            <div className="absolute -top-3 left-18 h-3 w-3 rounded-full bg-green-500" />
             <div className="p-6">
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg bg-gray-700 p-4">
