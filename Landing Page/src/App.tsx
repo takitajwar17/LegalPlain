@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Features } from "./components/Features";
@@ -42,14 +42,13 @@ function App() {
               <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-medium hover:bg-white/90 transition-all transform hover:scale-105">
                 Install Extension
               </button>
-              <ArrowRight className="w-6 h-6 text-white/70" />
               <button className="bg-white/10 text-white px-8 py-4 rounded-full text-lg hover:bg-white/20 transition-all">
                 Watch Demo
               </button>
             </div>
           </div>
         </div>
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2">
+        <div className="absolute bottom-12 left-3/5 -translate-x-1/2">
           <ArrowDown className="w-6 h-6 text-white/50 animate-bounce-slow" />
         </div>
       </section>
