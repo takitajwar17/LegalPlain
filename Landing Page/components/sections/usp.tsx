@@ -58,8 +58,8 @@ export function USPSection() {
               >
                 <Card className="relative overflow-hidden h-full bg-gray-800">
                   <CardContent className="p-6">
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-500 to-transparent rounded-bl-full" />
-                    <Icon className="h-12 w-12 text-purple-400 mb-4" />
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#993ceb] to-transparent rounded-bl-full" />
+                    <Icon className="h-12 w-12 text-[#993ceb] mb-4" />
                     <h3 className="text-xl font-semibold mb-2 text-white">
                       {usp.title}
                     </h3>
