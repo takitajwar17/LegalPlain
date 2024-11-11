@@ -1,10 +1,11 @@
 import { Analytics } from "@vercel/analytics/react";
+import { ArrowRight, Chrome } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Button } from "../../components/ui/button";
 import { BeforeAfter } from "./components/BeforeAfter";
 import { Features } from "./components/Features";
 import { Navbar } from "./components/Navbar";
 import { Story } from "./components/Story";
-
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -40,12 +41,17 @@ function App() {
               AI-powered simplification.
             </p>
             <div className="flex justify-center items-center space-x-4">
-              <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-medium hover:bg-white/90 transition-all transform hover:scale-105">
+              <Button
+                size="lg"
+                className="bg-white text-black hover:bg-white/90 rounded-full px-8"
+              >
+                <Chrome className="mr-2 h-5 w-5" />
                 Install Extension
-              </button>
-              <button className="bg-white/10 text-white px-8 py-4 rounded-full text-lg hover:bg-white/20 transition-all">
+              </Button>
+              <Button size="lg" variant="ghost" className="rounded-full px-8">
                 Watch Demo
-              </button>
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
             </div>
           </div>
         </div>
