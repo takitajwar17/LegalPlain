@@ -15,50 +15,51 @@ import {
 const features = [
   {
     icon: Brain,
-    title: "Intelligent Summarization",
+    title: "Legal Mumbo-Jumbo Simplifier",
     description:
-      "Advanced AI algorithms break down complex legal documents into clear, concise summaries.",
+      "Our AI turns confusing legal gobbledygook into plain English you can actually understand.",
   },
   {
     icon: FileText,
-    title: "Plain Language Transformation",
+    title: "Legalese to Human Translator",
     description:
-      "Convert legal jargon into everyday language that anyone can understand.",
+      "Transforms complex legal jargon into language your grandma would approve of.",
   },
   {
     icon: Highlighter,
-    title: "Interactive Clause Highlighting",
+    title: "Spotlight on Sneaky Clauses",
     description:
-      "Instantly identify and understand key clauses and their implications.",
+      "Shines a light on important clauses so you won't miss any hidden surprises.",
   },
   {
     icon: BookOpen,
-    title: "Legal Term Definitions",
+    title: "Jargon Buster",
     description:
-      "Get instant definitions and explanations for complex legal terminology.",
+      "Instantly demystifies baffling legal terms with simple explanations.",
   },
   {
     icon: Languages,
-    title: "Multilingual Support",
+    title: "Polyglot Legal Buddy",
     description:
-      "Understand legal documents across multiple languages with accurate translations.",
+      "Breaks down legal docs in multiple languages because law shouldn't be lost in translation.",
   },
   {
     icon: StickyNote,
-    title: "User Annotations",
+    title: "Add Your Two Cents",
     description:
-      "Add personal notes and annotations directly to your documents.",
+      "Scribble notes and thoughts directly onto documents—because your insights matter.",
   },
   {
     icon: Accessibility,
-    title: "Accessibility Features",
+    title: "Law for All",
     description:
-      "Inclusive design with text-to-speech and adjustable font sizes.",
+      "Accessibility features like text-to-speech so everyone can join the legal conversation.",
   },
   {
     icon: Shield,
-    title: "Compliance Updates",
-    description: "Stay informed about relevant legal compliance requirements.",
+    title: "Stay Ahead of the Curve",
+    description:
+      "Keeps you updated on the latest legal changes so you're always in the know.",
   },
 ];
 
@@ -94,11 +95,11 @@ export function FeaturesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Powerful Features for Legal Clarity
+            Unlock Legal Clarity with a Twist
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Everything you need to understand and navigate legal documents with
-            confidence.
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
+            Dive into features that make understanding legal documents not just
+            easy, but dare we say, fun.
           </p>
         </motion.div>
 
@@ -116,7 +117,7 @@ export function FeaturesSection() {
               className="group relative overflow-hidden rounded-lg bg-gray-800 p-6 shadow-md transition-shadow hover:shadow-lg"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-cyan-600/10 opacity-0 transition-opacity group-hover:opacity-100" />
-              <feature.icon className="h-12 w-12 mb-4 text-blue-600" />
+              <feature.icon className="h-12 w-12 mb-4 text-blue-500" />
               <h3 className="text-xl font-semibold mb-2 text-white">
                 {feature.title}
               </h3>

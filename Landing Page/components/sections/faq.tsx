@@ -55,7 +55,7 @@ export function FAQSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             Find answers to common questions about PlainLegal.
           </p>
         </motion.div>
