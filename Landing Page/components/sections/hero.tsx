@@ -71,7 +71,7 @@ export function HeroSection() {
                 </div>
                 <div className="rounded-lg bg-blue-800 p-4">
                   <h3 className="text-sm font-medium mb-2 text-white">
-                    Simplified by PlainLegal
+                    Simplified by LegalPlain
                   </h3>
                   <p className="text-sm text-gray-300">
                     According to Section 7(b), you agree to protect and

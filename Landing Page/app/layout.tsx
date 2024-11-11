@@ -1,15 +1,17 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Toaster } from '@/components/ui/toaster';
+import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'PlainLegal - AI-Powered Legal Document Simplifier',
-  description: 'Transform complex legal jargon into clear, understandable language instantly with our Chrome extension.',
-  keywords: 'legal document simplifier, AI legal assistant, legal tech, document analysis',
+  title: "LegalPlain - AI-Powered Legal Document Simplifier",
+  description:
+    "Transform complex legal jargon into clear, understandable language instantly with our Chrome extension.",
+  keywords:
+    "legal document simplifier, AI legal assistant, legal tech, document analysis",
 };
 
 export default function RootLayout({

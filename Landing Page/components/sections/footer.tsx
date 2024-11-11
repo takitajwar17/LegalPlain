@@ -26,7 +26,7 @@ export function FooterSection() {
           >
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-                PlainLegal
+                LegalPlain
               </span>
             </Link>
             <p className="text-gray-300 mb-4">
@@ -166,7 +166,7 @@ export function FooterSection() {
           className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
         >
           <p className="text-sm text-gray-300 mb-4 md:mb-0">
-            © {new Date().getFullYear()} PlainLegal. All rights reserved.
+            © {new Date().getFullYear()} LegalPlain. All rights reserved.
           </p>
           <Button variant="outline" className="group">
             <Chrome className="mr-2 h-4 w-4" />

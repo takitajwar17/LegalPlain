@@ -10,34 +10,34 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    question: "How accurate is PlainLegal's simplification?",
+    question: "How accurate is LegalPlain's simplification?",
     answer:
-      "PlainLegal uses advanced AI models specifically trained on legal documents to ensure high accuracy. Our system has been tested across various legal documents and consistently provides reliable simplifications while maintaining the original meaning.",
+      "LegalPlain uses advanced AI models specifically trained on legal documents to ensure high accuracy. Our system has been tested across various legal documents and consistently provides reliable simplifications while maintaining the original meaning.",
   },
   {
-    question: "Is my data secure when using PlainLegal?",
+    question: "Is my data secure when using LegalPlain?",
     answer:
-      "Absolutely! PlainLegal processes all documents locally in your browser. Your sensitive legal documents never leave your device, ensuring complete privacy and security.",
+      "Absolutely! LegalPlain processes all documents locally in your browser. Your sensitive legal documents never leave your device, ensuring complete privacy and security.",
   },
   {
-    question: "Which types of legal documents can PlainLegal simplify?",
+    question: "Which types of legal documents can LegalPlain simplify?",
     answer:
-      "PlainLegal can simplify various legal documents including contracts, terms of service, privacy policies, legal agreements, and more. The extension is designed to handle complex legal language across different document types.",
+      "LegalPlain can simplify various legal documents including contracts, terms of service, privacy policies, legal agreements, and more. The extension is designed to handle complex legal language across different document types.",
   },
   {
-    question: "Does PlainLegal work in multiple languages?",
+    question: "Does LegalPlain work in multiple languages?",
     answer:
-      "Yes! PlainLegal supports multiple languages and can simplify legal documents in various languages. The extension can also help translate simplified text into your preferred language.",
+      "Yes! LegalPlain supports multiple languages and can simplify legal documents in various languages. The extension can also help translate simplified text into your preferred language.",
   },
   {
-    question: "Can I use PlainLegal for professional legal work?",
+    question: "Can I use LegalPlain for professional legal work?",
     answer:
-      "While PlainLegal is a powerful tool for understanding legal documents, it's designed to complement, not replace, professional legal advice. We recommend using it alongside legal counsel for professional work.",
+      "While LegalPlain is a powerful tool for understanding legal documents, it's designed to complement, not replace, professional legal advice. We recommend using it alongside legal counsel for professional work.",
   },
   {
-    question: "How often is PlainLegal updated?",
+    question: "How often is LegalPlain updated?",
     answer:
-      "We regularly update PlainLegal to improve accuracy, add new features, and ensure compatibility with the latest legal terminology and document formats. Updates are automatically installed through the Chrome Web Store.",
+      "We regularly update LegalPlain to improve accuracy, add new features, and ensure compatibility with the latest legal terminology and document formats. Updates are automatically installed through the Chrome Web Store.",
   },
 ];
 
@@ -56,7 +56,7 @@ export function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Find answers to common questions about PlainLegal.
+            Find answers to common questions about LegalPlain.
           </p>
         </motion.div>
 

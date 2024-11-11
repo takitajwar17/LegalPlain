@@ -46,7 +46,7 @@ export function BeforeAfterSection() {
             See the Difference
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Experience how PlainLegal transforms complex legal text into clear,
+            Experience how LegalPlain transforms complex legal text into clear,
             understandable language.
           </p>
         </motion.div>
@@ -84,7 +84,7 @@ export function BeforeAfterSection() {
           <Card className="p-6 bg-gray-800">
             <h3 className="text-lg font-semibold mb-4 flex items-center text-white">
               <span className="w-3 h-3 rounded-full bg-green-500 mr-2" />
-              Simplified by PlainLegal
+              Simplified by LegalPlain
             </h3>
             <p className="text-gray-300 leading-relaxed">
               {examples[activeExample].simplified}
