@@ -77,8 +77,8 @@ export function HeroSection() {
                     Simplified by LegalPlain.ai
                   </h3>
                   <p className="text-sm text-gray-300">
-                    In simple terms, if something goes wrong because of your
-                    actions, you are responsible for covering the costs.
+                    If something goes wrong because of your actions, you are
+                    responsible for covering the costs.
                   </p>
                 </div>
               </div>
