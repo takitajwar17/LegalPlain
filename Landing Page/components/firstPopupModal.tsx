@@ -10,7 +10,7 @@ interface PopupModalProps {
   onClose: () => void;
 }
 
-export function PopupModal({ isOpen, onClose }: PopupModalProps) {
+export function FirstPopupModal({ isOpen, onClose }: PopupModalProps) {
   // Prevent scrolling when the modal is open
   useEffect(() => {
     if (isOpen) {
