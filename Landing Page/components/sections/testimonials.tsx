@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import Image from "next/image"; // Import Next.js Image component
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const testimonials = [
   {
@@ -40,17 +40,19 @@ const testimonials = [
 export function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const next = () => {
-    setCurrentIndex((current) =>
-      current === testimonials.length - 1 ? 0 : current + 1
-    );
-  };
+  useEffect(() => {
+    console.log("Setting up timeout for testimonial index:", currentIndex);
+    const timeout = setTimeout(() => {
+      setCurrentIndex((current) =>
+        current === testimonials.length - 1 ? 0 : current + 1
+      );
+    }, 3000); // Change every 3 seconds
 
-  const previous = () => {
-    setCurrentIndex((current) =>
-      current === 0 ? testimonials.length - 1 : current - 1
-    );
-  };
+    return () => {
+      console.log("Clearing timeout for testimonial index:", currentIndex);
+      clearTimeout(timeout);
+    };
+  }, [currentIndex]);
 
   return (
     <section id="testimonials" className="py-24 bg-gray-900">
@@ -78,7 +80,7 @@ export function TestimonialsSection() {
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.6 }}
             >
               <Card className="p-8 bg-gray-800 text-white">
                 <div className="flex flex-col items-center text-center">
@@ -117,25 +119,6 @@ export function TestimonialsSection() {
               </Card>
             </motion.div>
           </AnimatePresence>
-
-          <div className="flex justify-center gap-4 mt-8">
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={previous}
-              className="rounded-full bg-gray-800 text-white hover:bg-gray-700"
-            >
-              <ChevronLeft className="h-4 w-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={next}
-              className="rounded-full bg-gray-800 text-white hover:bg-gray-700"
-            >
-              <ChevronRight className="h-4 w-4" />
-            </Button>
-          </div>
         </div>
       </div>
     </section>
