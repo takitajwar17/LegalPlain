@@ -58,8 +58,14 @@ export function BeforeAfterSection() {
               variant={activeExample === index ? "default" : "outline"}
               onClick={() => setActiveExample(index)}
               className="w-full"
+              style={{
+                backgroundColor:
+                  activeExample === index ? "#2450AE" : undefined,
+              }}
             >
-              {example.title}
+              <span className={activeExample === index ? "font-bold" : ""}>
+                {example.title}
+              </span>
             </Button>
           ))}
         </div>
