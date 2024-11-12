@@ -82,6 +82,7 @@ export function PopupModal({ isOpen, onClose }: PopupModalProps) {
                       "https://chrome.google.com/webstore/detail/your-extension-id",
                       "_blank"
                     );
+                    onClose(); // Close the modal after opening the link
                   }}
                 >
                   <Chrome className="mr-2 h-5 w-5" />
