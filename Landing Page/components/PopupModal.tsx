@@ -35,7 +35,7 @@ export function PopupModal({ isOpen, onClose }: PopupModalProps) {
           exit={{ opacity: 0 }}
         >
           <motion.div
-            className="bg-gray-900 rounded-lg shadow-xl max-w-md w-full p-6 relative"
+            className="bg-[#111827] border border-[#c38ef8] rounded-lg shadow-xl max-w-lg w-full p-10 relative"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.8, opacity: 0 }}
@@ -65,17 +65,17 @@ export function PopupModal({ isOpen, onClose }: PopupModalProps) {
 
             {/* Content */}
             <div className="text-center space-y-6">
-              <h2 className="text-2xl font-bold text-white">
+              <h2 className="text-2xl font-bold text-white text-center">
                 Legal Pain 😢 or LegalPlain.ai? 🤔
               </h2>
-              <p className="text-gray-300">
+              <p className="text-gray-300 text-sm">
                 Simplify your legal documents effortlessly with our AI-powered
                 tool.
               </p>
-              <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+              <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-2">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white hover:from-purple-600 hover:to-indigo-700 rounded-full flex items-center justify-center w-full sm:w-auto px-6 py-3"
+                  className="bg-gradient-to-r from-purple-500 to-indigo-600 text-white hover:from-purple-600 hover:to-indigo-700 rounded-full flex items-center justify-center w-full sm:w-auto px-4 py-2"
                   onClick={() => {
                     // Redirect to Chrome Web Store extension link
                     window.open(
@@ -90,7 +90,7 @@ export function PopupModal({ isOpen, onClose }: PopupModalProps) {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-gray-200 hover:bg-gray-800 rounded-full flex items-center justify-center w-full sm:w-auto px-6 py-3 border border-gray-700"
+                  className="bg-[#111827] text-gray-200 hover:bg-gray-800 rounded-full flex items-center justify-center w-full sm:w-auto px-4 py-2"
                   onClick={onClose}
                 >
                   I want to explore more
