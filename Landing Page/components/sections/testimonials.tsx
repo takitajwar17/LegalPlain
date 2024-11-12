@@ -9,6 +9,15 @@ import { useState } from "react";
 
 const testimonials = [
   {
+    name: "Emily Rodriguez",
+    role: "Freelance Consultant",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150",
+    content:
+      "As a freelancer, understanding client contracts is crucial. LegalPlain.ai gives me the confidence to navigate legal documents independently.",
+    rating: 5,
+  },
+  {
     name: "Sarah Johnson",
     role: "Small Business Owner",
     image:
@@ -24,15 +33,6 @@ const testimonials = [
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
     content:
       "The accuracy and clarity provided by LegalPlain.ai is remarkable. It's like having a legal expert right in your browser.",
-    rating: 5,
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Freelance Consultant",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150",
-    content:
-      "As a freelancer, understanding client contracts is crucial. LegalPlain.ai gives me the confidence to navigate legal documents independently.",
     rating: 5,
   },
 ];
