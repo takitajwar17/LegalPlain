@@ -55,18 +55,21 @@ export function HeroSection() {
           className="mt-8"
         >
           <div className="relative mx-auto max-w-5xl rounded-xl border bg-gray-800 shadow-2xl">
-            <div className="absolute -top-3 left-6 h-3 w-3 rounded-full bg-red-500" />
-            <div className="absolute -top-3 left-12 h-3 w-3 rounded-full bg-yellow-500" />
-            <div className="absolute -top-3 left-18 h-3 w-3 rounded-full bg-green-500" />
-            <div className="p-6">
-              <div className="grid grid-cols-2 gap-4">
+            <div className="p-6 relative">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="rounded-lg bg-gray-700 p-4">
+                  <div className="absolute top-2 left-12 h-3 w-3 rounded-full bg-red-500" />
+                  <div className="absolute top-2 left-16 h-3 w-3 rounded-full bg-yellow-500" />
+                  <div className="absolute top-2 left-20 h-3 w-3 rounded-full bg-green-500" />
                   <h3 className="text-sm font-medium mb-2 text-white">
                     Original Text
                   </h3>
                   <p className="text-sm text-gray-300">
-                    Pursuant to Section 7(b) of the Agreement, the Party of the
-                    First Part hereby acknowledges and agrees to indemnify...
+                    Notwithstanding any provisions herein to the contrary, the
+                    aforementioned party agrees to indemnify and hold harmless
+                    the counterparty against any and all claims, liabilities,
+                    damages, or expenses arising from or in connection with the
+                    execution of this agreement.
                   </p>
                 </div>
                 <div className="rounded-lg bg-gradient-to-r from-blue-600 to-gray-800 p-4">
@@ -74,8 +77,8 @@ export function HeroSection() {
                     Simplified by LegalPlain.ai
                   </h3>
                   <p className="text-sm text-gray-300">
-                    According to Section 7(b), you agree to protect and
-                    compensate the other party...
+                    In simple terms, if something goes wrong because of your
+                    actions, you are responsible for covering the costs.
                   </p>
                 </div>
               </div>
