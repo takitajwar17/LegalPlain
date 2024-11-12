@@ -1,0 +1,1 @@
+# LegalPlain.ai
