@@ -9,10 +9,10 @@ const SimplificationControls: React.FC<SimplificationControlsProps> = ({
   return (
     <div className="space-y-3">
       <div className="flex items-center space-x-2">
-        <div className="p-1.5 bg-indigo-100 rounded-md">
-          <Sliders className="w-4 h-4 text-indigo-600" />
+        <div className="p-1.5 bg-purple-500/20 rounded-md">
+          <Sliders className="w-4 h-4 text-purple-400" />
         </div>
-        <h3 className="text-sm font-medium text-gray-700">Simplification Level</h3>
+        <h3 className="text-sm font-medium text-purple-200">Simplification Level</h3>
       </div>
       <div className="grid grid-cols-3 gap-2">
         {['basic', 'moderate', 'detailed'].map((option) => (
@@ -24,8 +24,8 @@ const SimplificationControls: React.FC<SimplificationControlsProps> = ({
               px-3 py-2 text-sm font-medium
               transition-all duration-300 transform hover:scale-105
               ${level === option
-                ? 'bg-gradient-to-r from-indigo-600 to-blue-600 text-white shadow-lg'
-                : 'bg-white text-gray-700 border border-gray-200 hover:border-indigo-300 hover:shadow-md'
+                ? 'bg-gradient-to-r from-purple-500 to-purple-600 text-white shadow-lg'
+                : 'bg-gray-800 text-purple-200 border border-purple-500/20 hover:border-purple-400/30 hover:shadow-md'
               }
             `}
           >
@@ -33,7 +33,7 @@ const SimplificationControls: React.FC<SimplificationControlsProps> = ({
               {option.charAt(0).toUpperCase() + option.slice(1)}
             </div>
             {level !== option && (
-              <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-blue-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
             )}
           </button>
         ))}

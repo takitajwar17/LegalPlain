@@ -47,23 +47,23 @@ function App() {
   }, []);
 
   return (
-    <div className="w-[400px] min-h-[600px] bg-gradient-to-br from-indigo-50 via-white to-blue-50 text-gray-800">
+    <div className="w-[400px] min-h-[600px] bg-gray-900 text-white">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-sm sticky top-0 z-10 border-b border-indigo-100 p-4">
+      <header className="bg-gray-800/80 backdrop-blur-sm sticky top-0 z-10 border-b border-purple-500/20 p-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="bg-indigo-600 rounded-lg p-2">
+            <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg p-2">
               <Scale className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-blue-600 text-transparent bg-clip-text">
+            <h1 className="text-xl font-bold bg-gradient-to-r from-purple-300 to-purple-600 text-transparent bg-clip-text">
               PlainLegal
             </h1>
           </div>
           <button 
-            className="p-2 hover:bg-indigo-50 rounded-full transition-all duration-300 transform hover:rotate-90"
+            className="p-2 hover:bg-purple-500/10 rounded-full transition-all duration-300 transform hover:rotate-90"
             title="Settings"
           >
-            <Settings className="w-5 h-5 text-indigo-600" />
+            <Settings className="w-5 h-5 text-purple-400" />
           </button>
         </div>
       </header>
@@ -72,12 +72,12 @@ function App() {
       <main className="p-4 space-y-6">
         {loading ? (
           <div className="flex flex-col items-center justify-center py-12 space-y-4">
-            <Loader2 className="w-8 h-8 text-indigo-600 animate-spin" />
-            <p className="text-sm text-indigo-600">Loading content...</p>
+            <Loader2 className="w-8 h-8 text-purple-500 animate-spin" />
+            <p className="text-sm text-purple-400">Loading content...</p>
           </div>
         ) : error ? (
-          <div className="bg-red-50/80 backdrop-blur-sm rounded-xl p-4">
-            <div className="flex items-center space-x-2 text-red-600">
+          <div className="bg-red-900/20 backdrop-blur-sm rounded-xl p-4 border border-red-500/20">
+            <div className="flex items-center space-x-2 text-red-400">
               <AlertTriangle className="w-5 h-5 flex-shrink-0" />
               <p className="text-sm font-medium">{error}</p>
             </div>
@@ -85,15 +85,15 @@ function App() {
         ) : (
           <>
             {/* Controls Panel */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-xl shadow-lg border border-indigo-100/50 overflow-hidden transition-all duration-300">
+            <div className="bg-gray-800/80 backdrop-blur-sm rounded-xl border border-purple-500/20 overflow-hidden transition-all duration-300">
               <button
                 onClick={() => setIsControlsExpanded(!isControlsExpanded)}
-                className="w-full p-4 flex items-center justify-between text-left hover:bg-indigo-50/50 transition-colors"
+                className="w-full p-4 flex items-center justify-between text-left hover:bg-purple-500/10 transition-colors"
                 title={isControlsExpanded ? 'Collapse settings' : 'Expand settings'}
               >
-                <span className="font-medium text-indigo-900">Analysis Settings</span>
+                <span className="font-medium text-purple-200">Analysis Settings</span>
                 <ChevronDown 
-                  className={`w-5 h-5 text-indigo-600 transition-transform duration-300 ${
+                  className={`w-5 h-5 text-purple-400 transition-transform duration-300 ${
                     isControlsExpanded ? 'rotate-180' : ''
                   }`} 
                 />
@@ -129,11 +129,11 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="fixed bottom-0 w-full bg-white/80 backdrop-blur-sm border-t border-indigo-100 p-3">
+      <footer className="fixed bottom-0 w-full bg-gray-800/80 backdrop-blur-sm border-t border-purple-500/20 p-3">
         <div className="flex items-center justify-center text-sm">
-          <div className="flex items-center space-x-2 px-3 py-1 bg-indigo-50 rounded-full">
-            <Book className="w-4 h-4 text-indigo-600" />
-            <span className="text-indigo-600 font-medium">Chrome AI Powered</span>
+          <div className="flex items-center space-x-2 px-3 py-1 bg-purple-500/10 rounded-full">
+            <Book className="w-4 h-4 text-purple-400" />
+            <span className="text-purple-300 font-medium">AI Powered</span>
           </div>
         </div>
       </footer>
