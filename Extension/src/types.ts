@@ -10,6 +10,8 @@ export interface DocumentSummaryProps {
   text: string;
   simplificationLevel: SimplificationLevel;
   language: string;
+  aiCapabilities: AICapabilities | null;
+  privacyMode: boolean;
 }
 
 export interface SimplificationControlsProps {
@@ -24,6 +26,19 @@ export interface LanguageSelectorProps {
 
 export interface RiskAssessmentProps {
   text: string;
+  aiCapabilities: AICapabilities | null;
+  privacyMode: boolean;
+}
+
+export interface AICapabilities {
+  summarizer: boolean;
+  textAnalysis: boolean;
+  languageDetection: boolean;
+}
+
+export interface ThemeContextType {
+  theme: 'light' | 'dark';
+  toggleTheme: () => void;
 }
 
 export interface SummarizerOptions {
@@ -36,9 +51,4 @@ export interface SummarizerOptions {
 export interface SummarizerService {
   initialize(options?: SummarizerOptions): Promise<void>;
   summarize(text: string, context?: string): Promise<string>;
-}
-
-export interface AnalyzerService {
-  initialize(): Promise<void>;
-  analyze(text: string): Promise<RiskAssessmentResult>;
 }
